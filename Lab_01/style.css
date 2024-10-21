@@ -10,3 +10,72 @@ body {
     color: navy;
     font-size: 1.5rem;
 }
+.nav a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+}
+.nav li{
+    width: fit-content;    
+    display: flex;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+    justify-content: center;
+}
+li.li1{
+    background-color:blue;
+}
+li.li2{
+    background-color:rgb(59, 15, 180);
+}
+li.li3{
+    background-color:rgb(76, 0, 255);
+}
+li.li4{
+    background-color:rgb(153, 0, 255);
+}
+table, th, td{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin: 1rem;
+}
+
+.blok{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+.row div {
+    width: 100px;
+    height: 100px;
+  }
+.blok1{
+    background-color: rgba(123, 255, 0, 0.432);
+}
+.blok2{
+    background-color: rgba(0, 255, 42, 0.425);
+}
+.blok3{
+    background-color: rgba(0, 255, 115, 0.466);
+}
+.blok4{
+    background-color: rgba(0, 255, 221, 0.493);
+}
+.blok5{
+    background-color: rgba(0, 255, 170, 0.438);
+}
+.blok img{
+    height: 100px;
+    width: 100px;
+}
